@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TimeHits60</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- main app -->
+  <div class="app-wrap">
+    
+    <!-- tabs -->
+    <div class="tab-menu">
+      <button id="clock-tab-btn" class="menu-btn active">Clock</button>
+      <button id="watch-tab-btn" class="menu-btn">Stopwatch</button>
+    </div>
+
+    <!-- display -->
+    <div class="circle-container">
+      <div class="display-box">
+        
+        <!-- clock -->
+        <div id="clock-panel">
+          <div id="clock-label">00:00:00</div>
+          <div id="date-label">Loading...</div>
+        </div>
+
+        <!-- stopwatch -->
+        <div id="watch-panel" class="hidden">
+          <div id="watch-label">00:00:00</div>
+          
+          <!-- controls -->
+          <div class="action-buttons">
+            <button id="btn-start" class="control-btn">Start</button>
+            <button id="btn-stop" class="control-btn hidden">Stop</button>
+            <button id="btn-reset" class="control-btn" disabled>Reset</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
