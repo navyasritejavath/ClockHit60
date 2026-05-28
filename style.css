@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fafafa;
+  color: #111;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* main container */
+.app-wrap {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* tabs */
+.tab-menu {
+  display: flex;
+  background-color: #ededed;
+  padding: 4px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  width: 250px;
+}
+
+.menu-btn {
+  flex: 1;
+  background: none;
+  border: none;
+  color: #666;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+
+.menu-btn.active {
+  background-color: #111;
+  color: #fff;
+}
+
+/* circular display */
+.circle-container {
+  width: 300px;
+  height: 300px;
+  border: 4px solid #111;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.display-box {
+  text-align: center;
+  width: 100%;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* time text */
+#clock-label,
+#watch-label {
+  font-size: 38px;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+}
+
+#date-label {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+/* buttons */
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.control-btn {
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid #111;
+  border-radius: 15px;
+  cursor: pointer;
+  background: #fff;
+  color: #111;
+  transition: 0.2s;
+}
+
+.control-btn:hover:not([disabled]) {
+  background: #111;
+  color: #fff;
+}
+
+.control-btn:disabled {
+  color: #ccc;
+  border-color: #eee;
+  cursor: not-allowed;
+}
+
+/* stop button */
+#btn-stop {
+  color: red;
+  border-color: red;
+}
+
+#btn-stop:hover {
+  background: red;
+  color: #fff;
+}
