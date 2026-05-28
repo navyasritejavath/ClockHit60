@@ -34,3 +34,6 @@ This project may look small, but it helped me build a strong base. It gave me co
 
 Overall, TimeHits60 is a simple but meaningful project for me. It shows my understanding of basic JavaScript concepts and my ability to build something functional from scratch. I plan to keep improving it and build more projects like this as I continue learning.
 
+<img width="467" height="687" alt="Image" src="https://github.com/user-attachments/assets/6605f575-5c5b-41c2-b7f3-7fac02cc4ff3" />
+
+<img width="473" height="649" alt="Image" src="https://github.com/user-attachments/assets/a9e10406-51ae-4003-8637-3e95e63fb8e9" />
